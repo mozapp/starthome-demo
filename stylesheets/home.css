@@ -199,7 +199,8 @@ img{
 
 .active:hover{
     color: #fff !important;
-    background-color: #f1b709 !important;
+
+    
 }
 
 .navbar-toggler{
