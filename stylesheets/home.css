@@ -123,11 +123,13 @@ img{
 }
 
 /*Nav Scroll*/
-.navbar-scrolled, .custom-nav-link{
-    background-color: #f2f5f7 !important;
-    color: #000 !important;
+.navbar-scrolled{
+    background-color: #0d3a58 !important;
     margin-top: 0rem !important;
     transition: all 0.5s;
+}
+.custom-nav-link{
+    color: #eb0f0f !important;
 }
 
 .custom-nav-style{
@@ -224,25 +226,23 @@ img{
     object-fit: cover;
 }
 
-.c-indecator{
-    position: relative;
-}
+
 .carousel-indicators button{
     width: 20px !important;
     height: 20px !important;
     border-radius: 100%;
 }
 
-.slide{
-    position: absolute !important;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1000;
-}
-
 .carousel-inner{
     border-bottom-right-radius: 300px;
     border-bottom: 15px solid #8080806c;
 }
+
+
+.top-nav{
+    position: absolute !important;
+    width: 100%;
+    margin-top: -600px !important;
+}
+
 
